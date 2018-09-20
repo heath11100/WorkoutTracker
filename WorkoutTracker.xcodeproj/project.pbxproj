@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		46CAC2D02151C63D009101D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC2CF2151C63D009101D7 /* AppDelegate.swift */; };
-		46CAC2D22151C63D009101D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC2D12151C63D009101D7 /* ViewController.swift */; };
 		46CAC2D52151C63D009101D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CAC2D32151C63D009101D7 /* Main.storyboard */; };
 		46CAC2D72151C63F009101D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CAC2D62151C63F009101D7 /* Assets.xcassets */; };
 		46CAC2DA2151C63F009101D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CAC2D82151C63F009101D7 /* LaunchScreen.storyboard */; };
@@ -28,6 +27,20 @@
 		46CAC3172151D84B009101D7 /* WorkoutSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3162151D84B009101D7 /* WorkoutSessionTests.swift */; };
 		46CAC31C2151E939009101D7 /* RoutineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC31B2151E939009101D7 /* RoutineTests.swift */; };
 		46CAC31E2151E949009101D7 /* WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC31D2151E949009101D7 /* WorkoutTests.swift */; };
+		46CAC32121528164009101D7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC32021528164009101D7 /* ListViewController.swift */; };
+		46CAC32B2152AFFB009101D7 /* UIToolbarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC32A2152AFFB009101D7 /* UIToolbarExtensions.swift */; };
+		46CAC32D2152B9FD009101D7 /* UICollectionViewListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC32C2152B9FD009101D7 /* UICollectionViewListLayout.swift */; };
+		46CAC32F2152BEBF009101D7 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC32E2152BEBF009101D7 /* ListCollectionViewCell.swift */; };
+		46CAC3322152E440009101D7 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3312152E440009101D7 /* UIViewExtensions.swift */; };
+		46CAC3352152E88D009101D7 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3342152E88D009101D7 /* Style.swift */; };
+		46CAC3372152E929009101D7 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3362152E929009101D7 /* UIColorExtensions.swift */; };
+		46CAC33A2152F09F009101D7 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3392152F09F009101D7 /* ExerciseViewController.swift */; };
+		46CAC33C2152F14B009101D7 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC33B2152F14B009101D7 /* TextFieldView.swift */; };
+		46CAC33E215327D6009101D7 /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC33D215327D6009101D7 /* ExerciseListViewController.swift */; };
+		46CAC3412153D861009101D7 /* NamedElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3402153D861009101D7 /* NamedElement.swift */; };
+		46CAC3432153DB92009101D7 /* ListCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3422153DB92009101D7 /* ListCollectionHeaderView.swift */; };
+		46CAC3452153E5AD009101D7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3442153E5AD009101D7 /* NavigationController.swift */; };
+		46CAC34721540B83009101D7 /* UISearchBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC34621540B83009101D7 /* UISearchBarExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +63,6 @@
 /* Begin PBXFileReference section */
 		46CAC2CC2151C63D009101D7 /* WorkoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CAC2CF2151C63D009101D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46CAC2D12151C63D009101D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		46CAC2D42151C63D009101D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46CAC2D62151C63F009101D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46CAC2D92151C63F009101D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +87,20 @@
 		46CAC3162151D84B009101D7 /* WorkoutSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionTests.swift; sourceTree = "<group>"; };
 		46CAC31B2151E939009101D7 /* RoutineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineTests.swift; sourceTree = "<group>"; };
 		46CAC31D2151E949009101D7 /* WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTests.swift; sourceTree = "<group>"; };
+		46CAC32021528164009101D7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		46CAC32A2152AFFB009101D7 /* UIToolbarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIToolbarExtensions.swift; sourceTree = "<group>"; };
+		46CAC32C2152B9FD009101D7 /* UICollectionViewListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewListLayout.swift; sourceTree = "<group>"; };
+		46CAC32E2152BEBF009101D7 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		46CAC3312152E440009101D7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		46CAC3342152E88D009101D7 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		46CAC3362152E929009101D7 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		46CAC3392152F09F009101D7 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		46CAC33B2152F14B009101D7 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		46CAC33D215327D6009101D7 /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
+		46CAC3402153D861009101D7 /* NamedElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedElement.swift; sourceTree = "<group>"; };
+		46CAC3422153DB92009101D7 /* ListCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionHeaderView.swift; sourceTree = "<group>"; };
+		46CAC3442153E5AD009101D7 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		46CAC34621540B83009101D7 /* UISearchBarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBarExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,14 +151,20 @@
 		46CAC2CE2151C63D009101D7 /* WorkoutTracker */ = {
 			isa = PBXGroup;
 			children = (
+				46CAC3332152E882009101D7 /* Styling */,
+				46CAC3292152AFE8009101D7 /* UIKit Extensions */,
+				46CAC3222152846B009101D7 /* Global Views */,
+				46CAC31F21528154009101D7 /* Global View Controllers */,
+				46CAC3382152F072009101D7 /* Element Specific View Controllers */,
 				46CAC2FE2151C762009101D7 /* Identifiers */,
 				46CAC2FD2151C740009101D7 /* Data Structures */,
 				46CAC2CF2151C63D009101D7 /* AppDelegate.swift */,
-				46CAC2D12151C63D009101D7 /* ViewController.swift */,
 				46CAC2D32151C63D009101D7 /* Main.storyboard */,
 				46CAC2D62151C63F009101D7 /* Assets.xcassets */,
 				46CAC2D82151C63F009101D7 /* LaunchScreen.storyboard */,
 				46CAC2DB2151C63F009101D7 /* Info.plist */,
+				46CAC32C2152B9FD009101D7 /* UICollectionViewListLayout.swift */,
+				46CAC3442153E5AD009101D7 /* NavigationController.swift */,
 			);
 			path = WorkoutTracker;
 			sourceTree = "<group>";
@@ -161,6 +193,7 @@
 		46CAC2FD2151C740009101D7 /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				46CAC33F2153D84C009101D7 /* Protocols */,
 				46CAC3032151C885009101D7 /* Exercise.swift */,
 				46CAC3052151C921009101D7 /* ExerciseSet.swift */,
 				46CAC3072151C951009101D7 /* Routine.swift */,
@@ -189,6 +222,60 @@
 				46CAC3142151CD4E009101D7 /* WorkoutSessionState.swift */,
 			);
 			path = "Workout Session";
+			sourceTree = "<group>";
+		};
+		46CAC31F21528154009101D7 /* Global View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46CAC32021528164009101D7 /* ListViewController.swift */,
+			);
+			path = "Global View Controllers";
+			sourceTree = "<group>";
+		};
+		46CAC3222152846B009101D7 /* Global Views */ = {
+			isa = PBXGroup;
+			children = (
+				46CAC32E2152BEBF009101D7 /* ListCollectionViewCell.swift */,
+				46CAC3422153DB92009101D7 /* ListCollectionHeaderView.swift */,
+				46CAC33B2152F14B009101D7 /* TextFieldView.swift */,
+			);
+			path = "Global Views";
+			sourceTree = "<group>";
+		};
+		46CAC3292152AFE8009101D7 /* UIKit Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46CAC32A2152AFFB009101D7 /* UIToolbarExtensions.swift */,
+				46CAC3312152E440009101D7 /* UIViewExtensions.swift */,
+				46CAC3362152E929009101D7 /* UIColorExtensions.swift */,
+				46CAC34621540B83009101D7 /* UISearchBarExtensions.swift */,
+			);
+			path = "UIKit Extensions";
+			sourceTree = "<group>";
+		};
+		46CAC3332152E882009101D7 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				46CAC3342152E88D009101D7 /* Style.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		46CAC3382152F072009101D7 /* Element Specific View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46CAC3392152F09F009101D7 /* ExerciseViewController.swift */,
+				46CAC33D215327D6009101D7 /* ExerciseListViewController.swift */,
+			);
+			path = "Element Specific View Controllers";
+			sourceTree = "<group>";
+		};
+		46CAC33F2153D84C009101D7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				46CAC3402153D861009101D7 /* NamedElement.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,14 +414,27 @@
 				46CAC3042151C885009101D7 /* Exercise.swift in Sources */,
 				46CAC3102151CBDE009101D7 /* WorkoutSession.swift in Sources */,
 				46CAC30A2151C990009101D7 /* RoutineIdentifier.swift in Sources */,
-				46CAC2D22151C63D009101D7 /* ViewController.swift in Sources */,
+				46CAC32121528164009101D7 /* ListViewController.swift in Sources */,
+				46CAC33A2152F09F009101D7 /* ExerciseViewController.swift in Sources */,
+				46CAC3452153E5AD009101D7 /* NavigationController.swift in Sources */,
+				46CAC3372152E929009101D7 /* UIColorExtensions.swift in Sources */,
+				46CAC33C2152F14B009101D7 /* TextFieldView.swift in Sources */,
 				46CAC30C2151CB3C009101D7 /* Workout.swift in Sources */,
+				46CAC3352152E88D009101D7 /* Style.swift in Sources */,
 				46CAC3122151CBEE009101D7 /* WorkoutSessionIdentifier.swift in Sources */,
+				46CAC32D2152B9FD009101D7 /* UICollectionViewListLayout.swift in Sources */,
 				46CAC30E2151CB6D009101D7 /* WorkoutIdentifier.swift in Sources */,
+				46CAC32F2152BEBF009101D7 /* ListCollectionViewCell.swift in Sources */,
+				46CAC32B2152AFFB009101D7 /* UIToolbarExtensions.swift in Sources */,
 				46CAC3002151C7BC009101D7 /* Identifier.swift in Sources */,
 				46CAC3022151C804009101D7 /* ExerciseIdentifier.swift in Sources */,
+				46CAC33E215327D6009101D7 /* ExerciseListViewController.swift in Sources */,
+				46CAC3322152E440009101D7 /* UIViewExtensions.swift in Sources */,
 				46CAC2D02151C63D009101D7 /* AppDelegate.swift in Sources */,
+				46CAC3432153DB92009101D7 /* ListCollectionHeaderView.swift in Sources */,
 				46CAC3152151CD4E009101D7 /* WorkoutSessionState.swift in Sources */,
+				46CAC3412153D861009101D7 /* NamedElement.swift in Sources */,
+				46CAC34721540B83009101D7 /* UISearchBarExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

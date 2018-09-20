@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Exercise {
+struct Exercise:NamedElement {
     let name:String
     let description:String
     let id:ExerciseIdentifier
