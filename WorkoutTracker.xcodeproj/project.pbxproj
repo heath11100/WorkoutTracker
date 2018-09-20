@@ -29,7 +29,6 @@
 		46CAC31E2151E949009101D7 /* WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC31D2151E949009101D7 /* WorkoutTests.swift */; };
 		46CAC32121528164009101D7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC32021528164009101D7 /* ListViewController.swift */; };
 		46CAC32B2152AFFB009101D7 /* UIToolbarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC32A2152AFFB009101D7 /* UIToolbarExtensions.swift */; };
-		46CAC32D2152B9FD009101D7 /* UICollectionViewListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC32C2152B9FD009101D7 /* UICollectionViewListLayout.swift */; };
 		46CAC32F2152BEBF009101D7 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC32E2152BEBF009101D7 /* ListCollectionViewCell.swift */; };
 		46CAC3322152E440009101D7 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3312152E440009101D7 /* UIViewExtensions.swift */; };
 		46CAC3352152E88D009101D7 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAC3342152E88D009101D7 /* Style.swift */; };
@@ -89,7 +88,6 @@
 		46CAC31D2151E949009101D7 /* WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTests.swift; sourceTree = "<group>"; };
 		46CAC32021528164009101D7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		46CAC32A2152AFFB009101D7 /* UIToolbarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIToolbarExtensions.swift; sourceTree = "<group>"; };
-		46CAC32C2152B9FD009101D7 /* UICollectionViewListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewListLayout.swift; sourceTree = "<group>"; };
 		46CAC32E2152BEBF009101D7 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
 		46CAC3312152E440009101D7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		46CAC3342152E88D009101D7 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
@@ -159,12 +157,11 @@
 				46CAC2FE2151C762009101D7 /* Identifiers */,
 				46CAC2FD2151C740009101D7 /* Data Structures */,
 				46CAC2CF2151C63D009101D7 /* AppDelegate.swift */,
+				46CAC3442153E5AD009101D7 /* NavigationController.swift */,
 				46CAC2D32151C63D009101D7 /* Main.storyboard */,
 				46CAC2D62151C63F009101D7 /* Assets.xcassets */,
 				46CAC2D82151C63F009101D7 /* LaunchScreen.storyboard */,
 				46CAC2DB2151C63F009101D7 /* Info.plist */,
-				46CAC32C2152B9FD009101D7 /* UICollectionViewListLayout.swift */,
-				46CAC3442153E5AD009101D7 /* NavigationController.swift */,
 			);
 			path = WorkoutTracker;
 			sourceTree = "<group>";
@@ -422,7 +419,6 @@
 				46CAC30C2151CB3C009101D7 /* Workout.swift in Sources */,
 				46CAC3352152E88D009101D7 /* Style.swift in Sources */,
 				46CAC3122151CBEE009101D7 /* WorkoutSessionIdentifier.swift in Sources */,
-				46CAC32D2152B9FD009101D7 /* UICollectionViewListLayout.swift in Sources */,
 				46CAC30E2151CB6D009101D7 /* WorkoutIdentifier.swift in Sources */,
 				46CAC32F2152BEBF009101D7 /* ListCollectionViewCell.swift in Sources */,
 				46CAC32B2152AFFB009101D7 /* UIToolbarExtensions.swift in Sources */,

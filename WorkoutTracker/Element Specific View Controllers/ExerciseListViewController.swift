@@ -11,6 +11,11 @@ import UIKit
 class ExerciseListViewController:ListViewController {
     override var newElementText:String { return "New Exercise" }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Exercises"
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         

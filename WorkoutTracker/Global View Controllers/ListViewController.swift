@@ -21,6 +21,8 @@ class ListViewController: UIViewController {
     private(set) var sectionTitles:[String] = []
     private(set) var rowData:[[NamedElement]] = []
     
+    override var preferredStatusBarStyle: UIStatusBarStyle { return .lightContent }
+    
     var newElementText:String { return "New Element" }
     
     init() {
